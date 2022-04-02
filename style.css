@@ -1,0 +1,244 @@
+:root{
+    --dark: #303030;
+    --white : #fff;
+    --black: #1B1C1E;
+}
+body, html{
+    height: 100%;
+}
+body{
+    margin:0;
+    background-color: var(--dark);
+}
+.clearfix{
+    clear:both;
+}
+.container{
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 50px;
+    color: var(--white);
+    padding: 0px 10px;
+}
+img:hover{
+    opacity: 1;
+}
+#navbar{
+    background-color: var(--black);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.moveRight{
+    float: right;
+}
+#navbar a{
+    float: left;
+    color: var(--white);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 10px;
+} 
+
+#navbar a:hover{
+    background-color: var(--dark);
+    color : var(--white)
+}
+
+#showcase{
+    background: url('Images/hamburger.jpg');
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+@media(max-width:768px){
+    #showcase{
+        background-position: center;
+        height:100vh;
+    }
+    
+}
+
+#showcase span{
+    padding-left: 20px;
+    position: relative;
+    top: 550px;
+    font-family: serif, Arial, Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 8px;
+    color: var(--white);
+}
+@media(max-width:768px){
+    #showcase span{
+        position: relative;
+        top: 450px;
+    }
+    
+}
+/* This is the menu style section */
+/* This is the menu style section */
+/* This is the menu style section */
+#side-text{
+    margin-top: 100px;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    font-family: serif, Arial, Helvetica;
+    color: var(--white);
+    text-align: center;
+}
+
+#side-text h2{
+    font-size: 50px;
+    font-weight: 200;
+    letter-spacing: 4px;
+    color: var(--white);
+}
+
+#side-text p{
+    letter-spacing: 8px;
+    color: var(--white);
+    margin-top: 50px;
+    font-size: 20px;
+}
+#side-image{
+    margin-top: 100px;
+    float: right;
+    width: 50%;
+    padding-left: 70px;
+    box-sizing: border-box;
+    opacity: 0.8;
+}
+@media(max-width:768px){
+    #side-image{
+        width: 100%;
+        float: none;
+        margin: auto;
+        margin-top: 50px;
+        padding: 0px;
+        height: 500px;
+    }
+    #side-text{
+        width: 100%;
+        float: none;
+    }
+    
+}
+
+/* This is the about page styling */
+/* This is the about page styling */
+/* This is the about page styling */
+#about-image{
+    margin-top: 100px;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    opacity: 0.8;  
+}
+#about-text{
+    margin-top: 100px;
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+    font-family: serif, Arial, Helvetica;
+    color: var(--white);
+    padding-left: 60px;
+}
+
+#about-text h2{
+    font-size: 35px;
+    letter-spacing:5px;
+    margin-top: 50px;
+    font-weight: 200;
+    text-align: center;
+}
+
+#about-text p{
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: var(--white);
+    margin-top:30px;
+}
+@media (max-width: 768px){
+    #about-image{
+        width: 100%;
+        float: none;
+        margin-top: 80px;
+    }
+    #about-text{
+        width: 100%;
+        float: none;
+        padding: 0px;
+        margin-top: 50px;
+    }
+    #about-text h2{
+        font-size: 30px;
+        letter-spacing:3px;
+        margin-top: 30px;
+    }
+    #about-text p{
+        font-size: 16px;
+    }
+}
+/* this is the contact section */
+/* this is the contact section */
+/* this is the contact section */
+h3{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: serif;
+    position: relative;
+    letter-spacing:5px;
+}
+
+input{
+    background-color: var(--dark);
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--white);
+    padding: 20px;
+}
+
+button:hover{
+    background-color: var(--black);
+    color:var(--white);
+}
+
+@media (max-width: 768px){
+    input{
+        width: 90%;
+    }
+   
+}
+
+/* this is the footer section */
+/* this is the footer section */
+/* this is the footer] section */
+p{
+    line-height: 2em;
+}
+
+footer{
+    background: var(--black);
+    color: var(--white);
+    text-align: center;
+    padding: 10px;
+}
+
+#dark-mode-button{
+    background-color: #2b2b2b;
+    color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 50px;
+    padding: 10px 15px;
+    float: left;
+
+}
+
+
